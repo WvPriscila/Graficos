@@ -15,7 +15,7 @@ ln, = ax.plot([], [], 'ro')
 
 def calcular_media_populacao(pop):
     soma = sum(individuo for individuo in pop)
-    media = soma / 0.5
+    media = soma / len(pop)
     print("média: ", media)
 
     return media
